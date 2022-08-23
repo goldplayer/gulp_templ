@@ -1,0 +1,37 @@
+{
+  "name": "g",
+  "version": "1.1.1",
+  "description": "A self-made gulp project to perform usual front-end tasks.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexHlukhyi/gulp-template.git"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Kama Coder",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "*",
+    "sass": "^1.53.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexHlukhyi/gulp-template/issues"
+  },
+  "homepage": "https://github.com/AlexHlukhyi/gulp-template#readme",
+  "keywords": [],
+  "devDependencies": {}
+}
